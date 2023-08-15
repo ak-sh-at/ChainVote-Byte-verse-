@@ -1,0 +1,251 @@
+body{
+  margin:0;
+  background-color: whitesmoke;
+ 
+}
+header{
+  margin-top: 80px;
+  display:flex;
+  align-items: center;
+}
+.navbar-brand {
+  font-family: 'Courgette', cursive;
+  
+  font-weight: bolder;
+}
+.heading{
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+  font-size: 65px;
+  letter-spacing: 10px;
+  margin-left: 400px;
+  margin-top: 40px;
+  color:solid black;
+}
+
+.parentdiv{
+  display:block;
+}
+.tag{
+display:flex;
+justify-content: center;
+
+height:150px;
+}
+.voteimage{
+  border: 5px solid black;
+  box-shadow: 10px 5px 5px black;
+  margin:10px;
+}
+@media only screen and (max-width: 1320px) {
+.heading{
+  font-size:30px;
+}
+}
+.navi {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.navi ul {
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.navi li {
+  padding: 1rem;
+}
+
+/* .navi li:hover, 
+.navi li:focus {
+  padding: 1rem;
+} */
+
+.navi li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navi li:hover, 
+.navi li:focus, 
+.navi li:hover a, 
+.navi li:focus a  {
+  background-color: #eee;
+  color: #333;
+}
+.about{
+  font-family: 'Courgette', cursive;
+  font-size: larger;
+  margin-right: 60px;
+  margin-left: 20px;
+  margin-top:20px;
+  
+}
+.navi>.log>button{
+  background-color:#333 ;
+}
+/* .navi li:hover a, 
+.navi li:focus a {
+  cursor: pointer;
+} */
+
+/* .navi{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.navi button{
+  letter-spacing: 1px;
+  font-weight:900;
+  font-size:larger;
+  padding:10px;
+  margin:10px 10px;
+  border-radius: 10px;
+  border:none;
+  background-color: black;
+  color:white;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.navi button:hover{
+  box-shadow: 10px 5px 5px black;
+  border:3px solid black;
+  background-color: beige;
+  color:black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.navi button:last-of-type{
+  margin-right: 20px;
+} */
+.mcont{
+  display: inline-block;
+  margin:40px;
+  
+}
+.cont{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width:400px;
+  height:450px;
+}
+ /* .mcont{
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+.cont{ 
+  display:inline-block; 
+  display:flex;
+  flex-direction: column;
+  align-items: center; 
+  margin:10px;
+  margin-left: 5%;
+  border-bottom:1px solid black; 
+  width:500px;
+  height:700px; 
+ } */
+
+.cont:hover{
+  box-shadow: 20px 10px 10px black;
+  background-color: #C2CAD0;
+  /* height:500px; */
+ 
+ 
+} 
+ .info{
+  font-family: 'Courgette', cursive;
+  letter-spacing: 1px;
+  margin:10px 100px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.vote{
+  font-size: larger;
+  font-weight: bolder;
+  }
+.vote:hover{
+  box-shadow: 10px 5px 5px black;
+  border:3px solid black;
+  background-color: beige;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.container2{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:20px;
+}
+.col1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col2,.col3{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  
+}
+.col1a>p,.col1b>p,.col2>p,.col3>p{
+ 
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: 'Courgette', cursive;
+  text-decoration: underline;
+}
+.col2>button,.col3>button{
+  letter-spacing: 1px;
+  font-weight:900;
+  font-size:larger;
+  padding:10px;
+  margin:10px 10px;
+  border-radius: 10px;
+  border:none;
+  background-color: black;
+  color:white;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.col2>button:hover,.col3>button:hover{
+  box-shadow: 10px 5px 5px black;
+  border:3px solid black;
+  background-color: beige;
+  color:black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+footer {
+  width: 100%;
+  padding: 0.25em;
+  background-color: #304146;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
+.foot{
+  display:flex;
+  justify-content: space-evenly;
+}
+.foot>div>p:hover{
+text-decoration: underline;
+}
